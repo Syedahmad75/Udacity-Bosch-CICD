@@ -31,7 +31,7 @@ stages:
   jobs:
   - job: BuildJob
     pool:
-      vmImage: $(vmImageName)
+      name: DiricoAgentPool
     steps:
     - task: UsePythonVersion@0
       inputs:
