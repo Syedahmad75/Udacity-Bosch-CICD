@@ -67,7 +67,7 @@ stages:
   jobs:
   - deployment: DeploymentJob
     pool:
-      vmImage: $(vmImageName)
+      name: syed
     environment: $(environmentName)
     strategy:
       runOnce:
