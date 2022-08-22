@@ -3,3 +3,5 @@ pytest
 Flask
 pandas
 scikit-learn
+jinja2
+locust
