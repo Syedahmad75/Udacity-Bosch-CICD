@@ -1,4 +1,4 @@
-# Building a CI/CD Pipeline Project: Deploying a scalable IaaS web server in Azure
+# Building a CI/CD Pipeline Project: Deploy Flask Application using GitHub Actions and Azure CI/CD Pipelines
 
 ### Overview
 In this project, we build a Github repository from scratch and create a scaffolding that will assist us in performing both Continuous Integration and Continuous Delivery. we use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, we integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
