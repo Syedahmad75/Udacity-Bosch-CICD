@@ -1,5 +1,9 @@
 # Building a CI/CD Pipeline Project: Deploy Flask Application using GitHub Actions and Azure CI/CD Pipelines
 
+### Status Badge
+
+[![Python Flask Application with Github Actions](https://github.com/Syedahmad75/Udacity-Bosch-CICD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Syedahmad75/Udacity-Bosch-CICD/actions/workflows/pythonapp.yml)
+
 ### Overview
 In this project, we build a Github repository from scratch and create a scaffolding that will assist us in performing both Continuous Integration and Continuous Delivery. we use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, we integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 This project consists of flask application that is developed to predict housing prices in Boston. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
