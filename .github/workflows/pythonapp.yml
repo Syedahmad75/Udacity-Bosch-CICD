@@ -1,4 +1,4 @@
-name: Python application test with Github Actions
+name: Python Flask Applications with Github Actions
 
 on: [push]
 
