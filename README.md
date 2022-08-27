@@ -127,6 +127,10 @@ We assume that, the code is cloned in the Azure Cloud Shell inside Udacity-Bosch
     ![local Prdiction](https://i.imgur.com/LdGDpxC.jpeg)
     1. you can also check on Postman, just add the following URL "https://flaskapp-udacity.azurewebsites.net/predict" and send the POST request to check the results. Make sure you added the model data in the body section. 
     ![Server Prdiction](https://i.imgur.com/jIechB0.png)
+18. we can use locust to do a load test against our application.Replace '< yourappname >' in the provided configuration and call locust.\
+    Using the parameters above locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds.\
+    `locust -f locustfile.py --headless -u 20 -r 5 -t 10s`
+    ![Locust File](https://i.imgur.com/tiR0Ksb.png)
 
 
 
